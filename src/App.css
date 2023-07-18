@@ -79,7 +79,7 @@ body {
     padding-top: 50px;
     padding-bottom: 250px;
     width: 800px;
-    height: fit-content;
+    height: 3500px;
     background-color: #F8F8F8;
     border: 2px solid red;
     width: 80%;
@@ -140,7 +140,10 @@ body {
     width: 157.49px;
     background-color: var(--btn-defauit);
 }
-
+.btn-download{
+    width: 244px;
+    background-color: var(--Secondary-1);
+}
 .btn-gernal-skills {
     min-width: 104px;
     padding: 0 20px;
@@ -194,7 +197,7 @@ body {
     -o-transform: translatex(5%);
 }
 
-.close-mentor {
+.close-mentor-general {
     background-color: var(--Red);
 }
 
@@ -371,7 +374,7 @@ body {
 /* ----------------------------------- */
 /* ----------------------------------- */
 /* The container */
-.container {
+.general-checkbox-container {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -385,7 +388,7 @@ body {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.general-checkbox-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -394,9 +397,9 @@ body {
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.general-checkmark {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     height: 25px;
     width: 25px;
@@ -416,24 +419,24 @@ body {
 } */
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked~.checkmark {
+.general-checkbox-container input:checked~.general-checkmark {
     background-color: #FED049;
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.general-checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Show the checkmark when checked */
-.container input:checked~.checkmark:after {
+.general-checkbox-container input:checked~.general-checkmark:after {
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.general-checkbox-container .general-checkmark:after {
     left: 9px;
     top: 5px;
     width: 5px;
@@ -444,21 +447,19 @@ body {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-
+/* ------------------ */
 /* --------------------------------- */
-.all select {
-
+.all-1 select {
     /* styling */
-    background-color: white;
+    background-color: #86bdc330;
     border: thin solid var(--Primary);
     border-radius: 4px;
     display: inline-block;
     font: inherit;
     line-height: 1.5em;
     padding: 0.5em 3.5em 0.5em 1em;
-
+    width: 284px;
     /* reset */
-
     margin: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -467,7 +468,7 @@ body {
     -moz-appearance: none;
 }
 
-.all select.minimal {
+.all-1 select.minimal {
     background-image:
         linear-gradient(45deg, transparent 50%, black 50%),
         linear-gradient(135deg, black 50%, transparent 50%),
@@ -483,7 +484,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.all select.minimal:focus {
+.all-1 select.minimal:focus {
     background-image:
         linear-gradient(45deg, black 50%, transparent 50%),
         linear-gradient(135deg, transparent 50%, black 50%),
@@ -502,14 +503,69 @@ body {
 }
 
 
-.all select:-moz-focusring {
+.all-1 select:-moz-focusring {
     color: transparent;
     text-shadow: 0 0 0 #000;
 }
+/* --------------------------------- */
+.all-2 select {
+    /* styling */
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    color: var(--Secondary-2);
+    font-size: var(--p-24);
+    border-bottom: 2px solid var(--Primary);
+    display: inline-block;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    width: 284px;
+    padding-left:0 ;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
 
-.all h1 {
-    color: white;
-    line-height: 120%;
-    margin: 0 auto 2rem auto;
-    max-width: 30rem;
+.all-2 select.minimal {
+    background-image:
+        linear-gradient(45deg, transparent 50%, black 50%),
+        linear-gradient(135deg, black 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.all-2 select.minimal:focus {
+    background-image:
+        linear-gradient(45deg, black 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, black 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: var(--Primary);
+    outline: 0;
+}
+
+
+.all-2 select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
 }
