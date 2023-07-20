@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, Stack } from 'react-bootstrap';
 
+
 const HomePage = () => {
   return (
     <div>
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Button variant="primary">Button as link</Button>
         <Button variant="success">Button as link</Button>
       </Stack>
+      
     </div>
   );
 };

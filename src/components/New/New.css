@@ -1,0 +1,127 @@
+
+.Page4_Registration_1{
+    background:url(../../assets/images/background_pattren.png);
+   background-repeat: repeat-x;
+   background-size: cover;
+   min-height: 100vh;
+   padding-left: 18rem;
+   padding-top: 7rem;
+}
+
+.Page4_Registration_1 .First_section .social .icon{
+
+    color: #282846;
+
+}
+.Page4_Registration_1 .First_section .social .facebook{
+    font-size: 31px;
+}
+.Page4_Registration_1 .First_section .social .google{
+    font-size: 36px;
+}
+.Page4_Registration_1 .First_section .social .linkedin{
+   font-size: 18px !important;
+   border-radius: 50%;
+   background-color: #282846;
+   color: var(--White);
+   text-align: center;
+   padding: 7px 8px;
+   position: relative;
+   top:10px;
+
+}
+.Page4_Registration_1 .First_section .social .icon:hover{
+ transform: scale(1.1);
+ opacity: .8;
+
+}
+.Page4_Registration_1 .First_section .social .icons{
+    display: inline-block;
+}
+.Page4_Registration_1 .First_section .social p{
+    display: inline-block;
+    color: #282846;
+    font-size: 18.66px;
+    line-height: 22.58px;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.Page4_Registration_1 .First_section{
+    margin-top: 30px;
+
+}
+.Page4_Registration_1 .First_section h2{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38.73px;
+    color: #282846;
+}
+.Page4_Registration_1 .First_section .btn-accept{
+    font-weight:400;
+    font-size:22.39px;
+    line-height: 27.1px;
+    margin-right: 60px;
+}
+
+.Page4_Registration_1 .First_section p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    color: #282846;
+}
+.Page4_Registration_1 .First_section .input-transparent{
+    min-width: 374px !important;
+    margin-right: 70px;
+}
+.Page4_Registration_1 .First_section span{
+    margin-left: -150px;
+    font-size: 18.66px;
+    font-weight: 400;
+    line-height: 22.58px;
+    color:var(--Secondary-1) ;
+    cursor: pointer;
+}
+.Page4_Registration_1 .First_section .social{
+    margin-top: 60px;
+}
+.Page4_Registration_1 .First_section .check_div{
+    margin-top: 40px;
+
+}
+.Page4_Registration_1 .First_section .general-checkbox-container{
+    padding-left: 0 !important;
+    color: var(--Secondary-2);
+    font-weight: 600;
+}
+.Page4_Registration_1 .First_section .general-checkbox-container .general-checkmark {
+
+    left: 35rem !important;
+}
+@media(max-width:700px){
+    .Page4_Registration_1{
+
+       padding-left: 0;
+
+    }
+    .Page4_Registration_1 .First_section .social p{
+
+        margin-right: 5px;
+    }
+    .Page4_Registration_1 .First_section .btn-accept{
+
+        margin-right: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .Page4_Registration_1 .First_section .general-checkbox-container .general-checkmark {
+
+        left: 20rem !important;
+        top: 40px;
+    }
+    .Page4_Registration_1 .First_section span{
+        margin-left: -180px;
+
+    }
+
+
+}

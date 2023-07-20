@@ -1,0 +1,52 @@
+.Contact-Us {
+    background-image: url(/src/assets/images/background_pattren.png);
+    height: 100%;
+    background-size: cover;
+    width: 100%;
+}
+.ContactUs-Info h2{
+ font-size: var(--h1-60);
+ font-weight: 400px;
+}
+.ContactUs-Info p{
+    font-size: var(--p-24);
+    font-weight: 400px;
+    
+}
+.Contact-Us .btn-general{
+    Width:176.54px;
+    Height:42.51px;
+    border-radius: 50px !important;
+    background-color: #007580;
+    color: #fff;
+
+}
+.Contact-Us .btn-general:hover{
+    background-color: #005a63;
+    color: #fff;
+
+}
+.Contact-Us .contact-form{
+    margin-top: 100px !important;
+    background-color: #F8F8F8;
+    border-radius: 5px;
+}
+.Contact-Us label{
+    color: #86BDC3;
+    font-size: 24px !important;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.contact-form .area{
+    height: 114px !important;
+}
+.Contact-Us span{
+    width: 18.00062370300293px;
+    height: 18.000226974487305px;
+    top: 0.000213623046875px;
+    left: -0.0009765625px;
+}

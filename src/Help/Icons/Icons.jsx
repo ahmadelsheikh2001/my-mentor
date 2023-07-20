@@ -1,7 +1,7 @@
 import React from "react";
 import './Icons.css';
 import { BiSearch } from "react-icons/bi";
-import { AiFillStar,AiOutlineTwitter ,AiOutlineInstagram,AiFillLinkedin,AiFillGoogleCircle,AiFillPlusSquare,AiFillCamera} from "react-icons/ai";
+import { AiFillStar,AiOutlineTwitter ,AiOutlineInstagram,AiFillLinkedin,AiFillPlusSquare,AiFillCamera} from "react-icons/ai";
 import { BsArrowLeftCircle ,BsArrowRightCircle,BsFacebook} from "react-icons/bs";
 import { TiSocialLinkedinCircular} from "react-icons/ti";
 import { IoSearchCircleOutline} from "react-icons/io5";
