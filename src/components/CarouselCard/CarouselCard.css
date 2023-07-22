@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+
+.main-carousel {
+	width: 100%;
+	margin-top: 20px;
+	position: relative;
+	padding: 5px 0;
+}
+
+.carousel-header {
+	width: 98%;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	justify-content: space-between;
+}
+.carousel-header .arrows {
+	display: flex;
+	width: 60px;
+	justify-content: space-between;
+}
+
+.carousel-header .arrows .arrow {
+	cursor: pointer;
+	font-size: 25px;
+}
+
+.carousel-section {
+	width: 98%;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+.carousel-section::-webkit-scrollbar {
+	display: none;
+}
+
+.carousel-section .carousel-card {
+	min-width: 318px;
+	height: 342px;
+	position: relative;
+	left: 0;
+	transition: all 0.3s ease;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+}
+
+.carousel-card picture {
+	width: 100%;
+	height: 82%;
+	padding: 15px;
+	display: flex;
+	overflow: hidden;
+}
+
+.carousel-card picture img {
+	width: 100%;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.reviews {
+	width: fit-content;
+	padding: 6px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	background-color: white;
+	color: black;
+	position: absolute;
+	margin-top: 63% !important;
+	margin-left: 10px;
+	color: gray;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.reviews .start {
+	color: var(--Primary);
+}
+
+.reviews p {
+	margin-bottom: 0;
+}
+
+.reviews span {
+	font-weight: bold;
+	color: black;
+}
+
+.carousel-detail {
+	width: 90%;
+	margin: auto;
+	font-size: 20px;
+	color: #444;
+	height: fit-content;
+	text-transform: capitalize;
+}
+
+.carousel-detail h2 {
+	font-size: 20px;
+}
+
+.carousel-detail p {
+	color: #555;
+	font-size: 18px;
+}
+
+@media (max-width: 768px) {
+	.carousel-header .arrows span {
+		font-size: 30px;
+	}
+
+	.carousel-detail {
+		font-size: 16px;
+	}
+
+	.carousel-header h2 {
+		font-size: 20px !important;
+	}
+}

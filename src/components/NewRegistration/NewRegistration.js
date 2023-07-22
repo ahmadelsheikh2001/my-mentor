@@ -1,6 +1,6 @@
 
 import React from "react";
-import './New.css'
+import './NewRegistration.css'
 import '../../App.css'
 import { Container, Col, Row } from "react-bootstrap";
 import { BsFacebook } from "react-icons/bs"

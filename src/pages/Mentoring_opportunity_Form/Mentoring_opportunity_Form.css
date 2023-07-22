@@ -1,0 +1,262 @@
+.Page11_Mentoring_opportunity_Form{
+    background:url(../../assets/images/background_pattren.png);
+    background-repeat: repeat-x;
+    background-size: cover;
+
+
+
+}
+.Page11_Mentoring_opportunity_Form .form-container{
+    background-color: #F8F8F8;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 15px;
+    min-height: 1096px;
+    max-width:1020px;
+    top: 149px;
+    left:155px ;
+
+
+}
+
+
+.Page11_Mentoring_opportunity_Form .form-container .mentor-general{
+    position: absolute;
+    right: 0;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+.Page11_Mentoring_opportunity_Form .form-container .input-gernal{
+    color: var(--Secondary-2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    min-height: 54px;
+}
+
+.Page11_Mentoring_opportunity_Form .form-container .input-gernal::placeholder{
+    color: red;
+    text-align: right;
+    font-size: 17px;
+
+}
+
+.Page11_Mentoring_opportunity_Form .form-container .title{
+    min-width: 486px;
+}
+.Page11_Mentoring_opportunity_Form .form-container .description{
+ min-width: 100%;
+ max-width: 100%;
+}
+.Page11_Mentoring_opportunity_Form .form-container .form-content{
+    padding: 70px 30px;
+    color: var(--Secondary-2);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24.2px;
+}
+.Page11_Mentoring_opportunity_Form .form-container .form-content .label-block label{
+   display: block;
+   position: relative;
+
+}
+.Page11_Mentoring_opportunity_Form .form-container .responsibilities{
+    min-width: 657px;
+}
+.Page11_Mentoring_opportunity_Form .form-container .label-block .icon{
+  color: var(--Secondary-1);
+  margin-left: 10px;
+  margin-top: -30px;
+}
+.Page11_Mentoring_opportunity_Form .form-container .btn-accept{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.05px;
+    margin-left: 50rem;
+}
+.Page11_Mentoring_opportunity_Form .form-container .all-3 select {
+    /* styling */
+    background-color: var(--White);
+    border: none;
+    font-weight: 600;
+    color: var(--Secondary-2);
+    font-size: var(--p-24);
+    border-bottom: 2px solid var(--Primary);
+    display: inline-block;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+    min-width: 262px;
+    padding-left:0 ;
+    /* reset */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: -120px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.Page11_Mentoring_opportunity_Form .form-container .all-3 select.minimal {
+    background-image:
+        linear-gradient(45deg, transparent 50%, var(--Secondary-2) 50%),
+        linear-gradient(135deg, var(--Secondary-2) 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.Page11_Mentoring_opportunity_Form .form-container .all-3 select.minimal:focus {
+    background-image:
+        linear-gradient(45deg, var(--Secondary-2) 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, var(--Secondary-2) 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: var(--Primary);
+    outline: 0;
+}
+
+
+.Page11_Mentoring_opportunity_Form .form-container .all-3 select:-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 var(--Secondary-2);
+}
+.Page11_Mentoring_opportunity_Form .form-container .Row-Certificate label{
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+.Page11_Mentoring_opportunity_Form .form-container .general-checkbox-container{
+    padding-left: 0 !important;
+    color: var(--Secondary-2);
+    font-weight: 600;
+}
+.Page11_Mentoring_opportunity_Form .form-container .general-checkbox-container .general-checkmark {
+
+    left: 12rem !important;
+}
+.Page11_Mentoring_opportunity_Form .form-container .paid .check_div{
+    margin-top: 60px;
+
+}
+.Page11_Mentoring_opportunity_Form .form-container .paid .general-checkbox-container .general-checkmark{
+    left: 4rem !important;
+
+}
+.Page11_Mentoring_opportunity_Form .form-container .labels{
+    margin-left: -200px;
+    margin-right: 360px;
+}
+.Page11_Mentoring_opportunity_Form .form-container .labels2{
+    margin-left: 40px;
+
+}
+.Page11_Mentoring_opportunity_Form .form-container .paid .amount{
+    min-width: 486px ;
+    margin-left: -200px;
+
+
+}
+.Page11_Mentoring_opportunity_Form .form-container .paid .all-3 select{
+    min-width: 175px !important;
+    margin-left: 40px;
+    max-height: 54px;
+}
+@media(max-width:950px){
+    .Page11_Mentoring_opportunity_Form .form-container{
+        min-height: auto;
+        max-width:auto;
+        left:0 ;
+
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .btn-accept{
+       width: 100%;
+        margin-left: 0;
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .responsibilities{
+        min-width: 88%;
+        max-width: 100%;
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .label-block .icon{
+        color: var(--Secondary-1);
+        margin-left: 8px;
+        margin-top: -30px;
+      }
+      .Page11_Mentoring_opportunity_Form .form-container .all-3 select {
+        /* styling */
+
+        min-width: 100%;
+
+        margin-left: 0px;
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .general-checkbox-container .general-checkmark {
+
+        left: auto !important;
+        right: 0;
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .paid .general-checkbox-container .general-checkmark{
+        left: auto !important;
+        right: 0;
+
+    }
+
+    .Page11_Mentoring_opportunity_Form .form-container .labels{
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .labels2{
+       margin-left: 0;
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .paid .general-checkbox-container{
+       margin-top: -50px;
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .paid{
+      flex-direction: column;
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .paid .amount{
+        min-width: 100% ;
+        max-width: 100%;
+        margin-left: 0;
+
+
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .paid .all-3 select{
+        min-width: 100% !important;
+        margin-left: 0px;
+
+
+    }
+    .Page11_Mentoring_opportunity_Form .form-container .title{
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+
+
+}

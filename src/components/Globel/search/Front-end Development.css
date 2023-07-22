@@ -1,0 +1,134 @@
+.front-end-div-right-side {
+    width: 1100px;
+    height: 246px;
+    margin-left: 50px;
+    margin-bottom:2rem;
+    border-radius: 15px;
+    background-color: #EAF4F5;
+}
+.front-end-div-block{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.front-end-div-heading  {
+    font-size: var(--h4-20);
+    font-weight: var(--fw-600);
+    line-height: 24.2px;
+    color: var(--Secondary-1);  
+ }
+
+ .front-end-div-name {
+    font-size: var(--p-16);
+    font-weight: var(--fw-600);
+    line-height: 19.36px;
+    color: var(--Black);
+ }
+
+ .front-end-div-name-looking{
+    font-size: var(--p-16);
+    font-weight: var(--fw-400);
+    line-height: 19.36px;
+    color: var(--Secondary-1);
+ }
+
+ .front-end-div-desc{
+    font-size: var(--p-14);
+    font-weight: var(--fw-400);
+    line-height: 16.94px;
+    color: var(--Black);
+    margin-top: 30px;
+ }
+
+ .front-end-div-readMore {
+    font-size: var(--p-14);
+    font-weight: var(--fw-600);
+    line-height: 16.94px;
+    color: var(--Black);
+ }
+
+ .front-end-div-left-side {
+    margin-left: 700px;
+    margin-top: -141px;
+
+ }
+.btn-front-viewDetails,
+.btn-front-mentor
+ {
+    min-width: 148.12px;
+    height: 31.18px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: var(--fw-600);
+    line-height: 16.94px;
+    border-radius: 54px;
+    -webkit-border-radius: 54px;
+    -moz-border-radius: 54px;
+    -ms-border-radius: 54px;
+    -o-border-radius: 54px;
+    background-color: var(--btn-defauit);
+    color: var(--White);
+    cursor: pointer;
+}
+.btn-front-mentor{
+    margin-left: 10px;
+}
+.btn-front-viewDetails:hover,
+.btn-front-mentor:hover{
+    opacity: .8;
+}
+.front-end-div-left-side-info {
+    width: 170px;
+    height: 93px;
+    margin-left: -50px;
+    margin-top: 83px;
+}
+.front-end-div-left-side-info-paid{
+    margin-left: 35px;
+}
+
+.front-end-div-left-side-duration,
+.front-end-div-left-side-looking {
+    font-weight: var(--fw-600);
+    line-height: 19.36px;
+    color: var(--Secondary-1);
+}
+.front-end-div-left-side-looking {
+    margin-top:10px;
+}
+.front-end-div-left-side-duration-span,
+.front-end-div-left-side-looking-span{
+    font-weight: var(--fw-400);
+    line-height: 19.36px;
+    color: var(--Black);
+}
+
+
+@media screen and (max-width: 768px) {
+    .front-end-div-right-side {
+        width: 96%;
+        height: auto;
+        margin-top: 50px;
+        margin-left: 10px;
+        border-radius: 15px;
+        background-color: #EAF4F5;
+    }
+
+    .front-end-div-left-side {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .front-end-div-left-side-info {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .front-end-div-left-side-info-paid {
+        margin-left: 0;
+    }
+
+     
+}

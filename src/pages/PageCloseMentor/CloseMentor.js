@@ -1,66 +1,83 @@
 import React from 'react'
-import './MentorRequest.css'
+import './CloseMentor.css'
 import '../../App.css'
-import { Col, Container,  Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { MdOutlineAttachMoney } from 'react-icons/md'
 import { GoBriefcase } from 'react-icons/go'
-import { BiTimeFive } from 'react-icons/bi'
+import { BiSolidBriefcase, BiTimeFive } from 'react-icons/bi'
 import { HiOutlineLocationMarker } from 'react-icons/hi'
-const MentorRequest = () => {
+import { AiFillPlusSquare } from 'react-icons/ai'
+const CloseMentor = () => {
     return (
         //start mentorRequst Page
-        <div className='mentorRequst p-1 p-md-2'>
+        <section className='mentorRequst p-2'>
             <Container className='py-4'>
                 {/*start main Row */}
-                <Row className='d-flex  justify-content-between'>
+                <Row className=''>
                     {/*start sideBar */}
-                    <Col md={2}>
-                        sideBar
+                    <Col xs={12} lg={3} className='sideBar my-5 d-none d-md-block'>
+                        <ul>
+                            <li>Edit Mentoring opportunity  </li>
+                            <li>Settings</li>
+                            <li>Terms and Privacy</li>
+                            <li className='mt-5'>Post a new opportunity  <AiFillPlusSquare className='AiFillPlusSquareColor' /> </li>
+                        </ul>
                     </Col>
                     {/* end sideBar */}
 
                     {/*start col of main content/box */}
-                    <Col lg={10} className='box p-2 pt-0'>
+                    <Col xs={12} lg={9} className='box p-2 pt-0'>
 
                         <Row >
                             <Col className='d-flex justify-content-end pe-0'>
-                                <div class="mentor-general ">
-                                    <p className='mt-3'>  Mentoring request</p>
+                                <div class="mentor-general close-mentor-general">
+                                    <p className='my-2  me-4'> Closed Mentoring opportunity</p>
                                 </div> </Col>
                         </Row>
 
                         <Row className='my-4 px-2 '>
-                            <Col xs={12} md={10} className=''>
+                            <Col xs={12} md={12}>
                                 <div className='about_information '>
-                                    <p className='track'>Front End development</p>
-                                    <p className='sub_inf'><span className='sub_name'>Khadija Saif</span> is looking for a mentor
+                                    <p className='track'>Website UI design implementation</p>
+                                    <p className='sub_inf'> Get mentored by :<span className='sub_name'>Belal Shwani</span>
                                     </p>
                                 </div>
-                                <Col xl={11}>
+                                <Col >
                                     <div className='content'>
-                                        <p className='content_info'>i’m a recent computer science graduate from khartoum university, intrested in front end development and UI / UX looking for a mentor to guide me through becoming a proficional front end developer </p>
+                                        <p className='content_info'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
                                 </Col>
-                                <Col xs={12} md={8} className='d-flex justify-content-between'>
-                                    <div className='d-flex align-items-center   paid'>
-                                        <p className='paid_icon me-1 '><MdOutlineAttachMoney /> </p>
-                                        <p className='paid_text mt-1 d-flex flex-wrap'>Paid <span className='paid_span'> : 200 sdg / H</span></p>
-                                    </div>
-                                    <div className='d-flex align-items-center me-md-5   paid'>
-                                        <p className='paid_icon me-1 '><HiOutlineLocationMarker /> </p>
-                                        <p className='paid_text mt-1 d-flex flex-wrap'>Location <span className='paid_span'> : Remote</span></p>
-                                    </div>
-                                </Col>
-                                <Col xs={12} md={8} className='d-flex  justify-content-between mb-4'>
-                                    <div className='d-flex align-items-center   paid'>
-                                        <p className='paid_icon me-1 '><GoBriefcase /> </p>
-                                        <p className='paid_text mt-1 d-flex flex-wrap'> Experince  <span className='paid_span'> : none </span></p>
-                                    </div>
-                                    <div className='d-flex align-items-center   paid'>
-                                        <p className='paid_icon me-1 '><BiTimeFive /> </p>
-                                        <p className='paid_text mt-1 d-flex flex-wrap'>Duration  <span className='paid_span'> : Open Duration</span></p>
-                                    </div>
-                                </Col>
+                                <Row xs={12} md={8}>
+                                    <Col xs={6} md={4} className=''>
+                                        <div className='d-flex    paid'>
+                                            <BiSolidBriefcase className='paid_icon me-1 ' />
+                                            <p className='paid_text  '>Certificate :<span className='paid_span'>   Awarded </span></p>
+                                        </div>
+                                        <div className='d-flex    paid'>
+                                            <MdOutlineAttachMoney className='paid_icon me-1 ' />
+                                            <p className='paid_text  '>Paid : <span className='paid_span'>  200 sdg / H</span></p>
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} md={4}>
+                                        <div className='d-flex    paid'>
+                                            <HiOutlineLocationMarker className='paid_icon me-1 ' />
+                                            <p className='paid_text  '>Location : <span className='paid_span'>  Remote</span></p>
+                                        </div>
+                                        <div className='d-flex  paid'>
+
+                                            <BiTimeFive className='paid_icon me-1 ' />
+                                            <p className='paid_text  '>Duration :  <span className='paid_span'> Open Duration</span></p>
+
+                                        </div>
+                                    </Col>
+                                    <Col xs={6} md={4}>
+                                        <div className='d-flex    paid'>
+                                            <GoBriefcase className='paid_icon me-1 ' />
+                                            <p className='paid_text  '>Might get hired :<span className='paid_span'> yes</span></p>
+                                        </div>
+
+                                    </Col>
+                                </Row>
                                 <div className='help_with my-5'>
                                     <p className='help_with_header'>I’m looking for help with </p>
                                     <ul className='help_with_list ps-3'>
@@ -92,9 +109,6 @@ const MentorRequest = () => {
                                 </div>
                             </Col>
 
-                            <Col sm={3} md={2} className='Col_Mentor d-flex justify-content-end  '>
-                                <button class="btn-gernal btn-defauit text-black ">Mentor</button>
-                            </Col>
 
                         </Row>
                         <Row>
@@ -195,9 +209,9 @@ const MentorRequest = () => {
                 </Row>
                 {/* End main Row */}
             </Container>
-        </div>
+        </section>
         //end mentorRequst Page
     )
 }
 
-export default MentorRequest
+export default CloseMentor;
