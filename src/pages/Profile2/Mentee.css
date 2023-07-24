@@ -1,0 +1,222 @@
+
+.Mentee{
+    width: 65%  !important;
+    margin: auto;
+    
+
+}
+.Mentee .input-current{
+    height: 61px  !important;
+    max-width: 100% !important;
+    min-width: 374px!important;
+
+
+
+}
+.Mentee .available{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--Secondary-2);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.Mentee .profile-title{
+    font-weight: 600;
+    size: 32px;
+}
+.Mentee .all-2 select{
+   min-width: 400px ;
+   max-width: 100%;
+}
+
+
+.Mentee .input-current::placeholder{
+    color:var(--Secondary-2);
+    font-weight: 600;
+    font-size: 24px;
+}
+.Mentee .seconry-one{
+    color:var(--Secondary-1);
+    font-size: 20px;
+    font-weight: 600;
+}
+.Mentee .content{
+    display: flex;
+    flex-direction: column;
+    justify-content: Left;
+    align-items: Left;
+}
+.Mentee .para{
+    width: 49% !important;
+
+}
+.Mentee .buttons{
+    margin-top:10px;
+}
+.Mentee .submit{
+    display: block;
+    margin-left: 45rem;
+
+}
+.Mentee .all-2 .dropdown-toggle::after{
+    content:none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.Mentee .all-2 .dropdown .btn {
+    /* styling */
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    font-weight: 600 !important;
+    color: var(--Secondary-2 )!important;
+    font-size: var(--p-24) !important;
+    border-bottom: 2px solid var(--Primary);
+    display: inline-block;
+    line-height: 1.5em !important;
+    padding: 0.5em 13.5em 0.5em 0;
+    min-width: 400px;
+    padding-left:0 ;
+    /* reset */
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    background-image:
+        linear-gradient(45deg, transparent 50%, black 50%),
+        linear-gradient(135deg, black 50%, transparent 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 20px) calc(1em + 2px),
+        calc(100% - 15px) calc(1em + 2px),
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+}
+
+.Mentee .all-2 .dropdown.minimal:focus {
+    background-image:
+        linear-gradient(45deg, black 50%, transparent 50%),
+        linear-gradient(135deg, transparent 50%, black 50%),
+        linear-gradient(to right, #ccc, #ccc);
+    background-position:
+        calc(100% - 15px) 1em,
+        calc(100% - 20px) 1em,
+        calc(100% - 2.5em) 0.5em;
+    background-size:
+        5px 5px,
+        5px 5px,
+        1px 1.5em;
+    background-repeat: no-repeat;
+    border-color: var(--Primary);
+    outline: 0;
+}
+
+.Mentee .dropdown-item{
+    display: block;
+    min-width: 400px;
+    font-weight: 400 !important;
+    color: var(--Secondary-2 )!important;
+    font-size: var(--p-24) !important;
+    padding: 0px var(--bs-dropdown-item-padding-x);
+    clear: both;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+}
+.Mentee .general-checkbox-container{
+    padding-left: 0 !important;
+    color: var(--Secondary-2);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.Mentee .general-checkbox-container .general-checkmark {
+
+    left: 14rem !important;
+    margin-top: 5px;
+}
+.Mentee .dropdown-item:focus{
+    background-color: #0d6efd;
+    color: white!important;
+}
+
+.Mentee .dropdown-item:hover{
+    background-color: #0d6efd;
+    color: white!important;
+}
+
+.Mentee .dropdown-item :-moz-focusring {
+    color: transparent;
+    text-shadow: 0 0 0 #000;
+}
+.Mentee .location{
+    margin-top: -40px;
+    margin-left: 19px;
+
+}
+@media(max-width: 768px){
+    .Mentee .buttons{
+        flex-direction: column;
+    }
+    .Mentee .location{
+        margin-top: -40px;
+        margin-left: 0px;
+
+    }
+    .Mentee{
+        width: 100%!important ;
+
+    }
+    .Mentee .input-current{
+        max-width: 100%;
+
+    }
+   .Mentee .input{
+        display: block !important;
+    }
+    .Mentee .para{
+        width: 100% !important;
+        margin-bottom: 56px;
+
+    }
+.Mentee .general-checkbox-container .general-checkmark {
+
+    left: auto !important;
+    right: 0;
+    margin-top: 5px;
+}
+
+.Mentee .btn-responsive .button-upload{
+    min-width: 100%!important;
+
+}
+.Mentee .submit{
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+
+}
+.btn-responsive{
+    flex-direction: column;
+}
+
+
+
+}
+
+
